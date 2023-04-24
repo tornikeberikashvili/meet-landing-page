@@ -1,0 +1,408 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image:url(tablet/image-hero.png);
+    background-repeat: no-repeat;
+    background-size: 42rem;
+    background-position:top 10rem left 50%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+     margin-top: 4.0rem;
+}
+
+.logo-meet{
+    width: 8.0rem;
+}
+
+.header-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2.4em;
+    text-align: center;
+    align-items: center;
+}
+
+.header-h1{
+    font-family: 'Red Hat Display' sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #28283D;
+    margin-top: 6em;
+    max-width: 10ch;
+    
+}
+
+.header-p{
+    
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #87879D;
+    max-width: 36ch;
+
+}
+
+.div-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-download{
+    background: #4D96A9;
+    border-radius: 2.9rem;
+    width: 19.3rem;
+    height: 5.8em;
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.one-button{
+    font-size: 1.6rem;
+    line-height: 2.6em;
+    color: #FFFFFF;
+    border: none;
+    background: #4D96A9
+}
+
+.button-whot{
+    margin-top: 1.6rem;
+}
+
+.two-button{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #FFFFFF;
+    background: #855FB1;
+    border-radius: 2.9rem;
+    border: none;
+    height: 5.8rem;
+    width: 13.9rem;
+}
+
+.clear{
+    width: 0.1rem;
+    height: 8.4rem;
+    position: relative;
+    top: 6.2rem;
+    background: #87879D;
+
+}
+
+.number{
+    margin-top: 6rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #87879D;
+    border-radius: 2.9rem;
+    border: 0.1rem solid;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.images{
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    gap: 2.5em;
+    margin-top: 3.1rem;
+    
+}
+
+
+
+.image{
+    width: 100%;
+    border-radius: 4rem;
+   
+}
+
+.content-text{
+    margin-top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    
+    line-height: 2.6rem;
+    color: #4D96A9;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 3.2rem;
+    text-align: center;
+    color: #28283D;
+    margin-top: 2.4rem;
+    max-width: 13ch;
+
+
+}
+
+.send-text-p{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #87879D;
+    max-width: 33ch;
+    margin-top: 3.2rem;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.stik-2{
+    width: 0.1rem;
+    height: 8.4rem;
+    position: relative;
+    top: 10rem;
+    background: #87879D;
+}
+
+.two{
+    margin-top: 7.8rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #87879D;
+    border-radius: 2.9rem;
+    border: 0.1rem solid;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 2rem;
+}
+
+.colored{
+    background-image: url(mobile/image-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: RGB(71 136 153);
+    background-blend-mode: lighten;
+    width: -webkit-fill-available;
+}
+
+.footer-text{
+    margin-top: 8.7rem;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    color: #FAFAFA;
+    max-width: 18ch;
+}
+
+.footer-p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 2.4rem;
+    max-width: 25ch;
+    color:#FAFAFA;
+
+
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.2rem;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-download{
+    margin-bottom: 4rem;
+    border-radius: 2.9rem;
+    width: 19.3rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #855FB1;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.footer-download span{
+    color: #D9B8FF;
+    
+}
+
+@media (min-width: 48rem ){
+   
+    body{
+        background-image: url(tablet/image-hero.png);
+        background-size: inherit;
+    }
+
+    .header-text{
+        margin-top: 7.2rem;
+    }
+
+    .header-h1{
+        min-width: 10ch;
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+        text-align: center;
+    }
+
+    .header-p{
+        line-height: 2.6rem;
+        min-width: 44ch;
+    }
+
+    .div-button{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 1.6rem;
+    }
+
+    .clear{
+        top: 6rem;
+    }   
+
+    .images{
+        grid-template-columns: repeat(4,15rem);
+    }
+
+    h3{
+        max-width: 16ch;
+    }
+
+    .send-text-p{
+        max-width: 54ch;
+    }
+
+
+    .colored{
+        background-image: url(tablet/image-footer.jpg);
+    }
+
+    h4{
+        font-size: 4.0rem;
+        line-height: 4.4rem;
+    }
+
+    .footer-p{
+        max-width: 47ch;
+    }
+
+
+
+    }
+
+    @media (min-width: 90rem ) {
+        body{
+            background-image: url(desktop/image-hero-left.png),url(desktop/image-hero-right.png);
+            background-position: top 17rem left -3rem,top 21rem right -3rem;
+        }
+
+        .header-text{
+            margin-top: -21.8rem;
+        }
+
+        .header-h1{
+            font-size: 6.4rem;
+            line-height: 6.4rem;
+        }
+
+        .header-p{
+            font-size: 1.8rem;
+        }
+
+        .clear{
+            top: 17.1rem;
+        }
+
+        .number{
+            margin-top: 17.1rem;
+        }
+
+        .images{
+            grid-template-columns: repeat(4,25rem);
+        }
+
+        h3{
+            font-size: 4rem;
+            line-height: 4.4rem;
+        }
+
+        .send-text-p{
+            font-size: 1.8rem;
+        }
+
+        .colored{
+            background-image: url(desktop/image-footer.jpg);
+        }
+
+        .footer-text{
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: start;
+        }
+
+        .footer-download:hover{
+            background: #855FB1;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        }
+    
